@@ -12,13 +12,15 @@ header .menu-btn {
 }
 header .menu-btn{
 	color:#999;
-	background:rgba(0, 0, 0, 1);
+	background:rgba(0, 0, 0, 0);
 	padding:20px 5vw;
 	font-size:12px;
 	text-decoration:none;
 	letter-spacing:2px;
 	text-transform:uppercase;
 }
+
+
 
 header .active{
 	color:black;
@@ -30,24 +32,34 @@ header .menu-btn:hover{
 	background:rgb(219, 111, 48);;
 	padding:40px 5vw;
 	color:#1b1b1b;
+	text-decoration: none;
 }
 
 header nav{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	background-color: black;
+	transition: 0.4s;
+}
+
+header.black nav{
+	background:rgba(0, 0, 0, 0.9);
 }
 
 header nav ul li{
 	display: inline-block;
 }
 
-header .banner{
-	background-image: url(assets/banner.jpg);
-	background-size: cover;
-}
 
 header img{
-	width: 100px;
+	width: 60px;
+}
+.content {
+	padding: 16px;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
