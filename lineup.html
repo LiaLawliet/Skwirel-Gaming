@@ -41,23 +41,7 @@
 		<a href="https://www.twitch.tv/skwireltv"><img src="assets/twitch.png"></img></a></p>
 		<a href=""><img src="assets/contact.png"></img></a></p>
 	</footer>
-	<script>
-		$(document).ready(function () {
-			$(document).on("scroll", function () {
-				if ($(window).scrollTop() != 0) {
-					$('header').addClass('black');
-				}
-
-				else {
-					$('header').removeClass('black');
-				}
-			})
-			let height = $('.navbar').height();
-			$('#myMain').css('margin-top', function () {
-				return height;
-			});
-		})
-	</script>
+	<script src="js/script.js"></script>
 </body>
 
 </html>
