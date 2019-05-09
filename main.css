@@ -4,6 +4,8 @@ body {
 	padding: 0;
 }
 
+/*** HEADER ***/
+
 header .menu-btn {
 	-webkit-transition-property: all;
 	-webkit-transition-duration: .2s;
@@ -29,7 +31,7 @@ header .active{
 
 header .menu-btn:hover{
 	border:none;
-	background:rgb(219, 111, 48);;
+	background:rgb(219, 111, 48);
 	padding:40px 5vw;
 	color:#1b1b1b;
 	text-decoration: none;
@@ -63,3 +65,183 @@ header img{
 	top: 0;
 	width: 100%;
 }
+
+/**** END HEADER ****/
+
+/**** FOOTER ****/
+
+footer{
+    
+}
+footer .first-footer{
+	padding: 3vh 16vw;
+	background-color: #000000;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .second-footer{
+	padding: 3vh 16vw;
+	background-color: rgb(172, 85, 34);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#copyright h1{
+    margin: 0;
+    color: #16445c;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#copyright span{
+    color: #ff592f;
+}
+
+#newsletter h1{
+    margin: 0;
+    color: #16445c;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+#newsletter input{
+    padding: 5px;
+    border: none;
+    width: 76%;
+    outline: none;
+}
+#newsletter button{
+    width: 15%;
+    padding: 3px;
+    background-color: #16445c;
+    color: white;
+    border-color: #16445c;
+    outline: none;
+}
+
+footer #networks{
+	display: flex;
+}
+footer #networks .borders{
+	width: 5rem;
+    height: 5rem;
+}
+
+footer #networks a{
+	width: 100%;
+	height: 100%;
+    color: rgb(219, 111, 48);
+    font-size: 1.8rem;
+    transition-duration: 0.1s;
+	border-color: rgb(219, 111, 48);
+}
+footer #networks a:hover{
+	background-color: rgb(219, 111, 48);
+    color: black;
+    transition-duration: 0.2s;
+}
+
+footer .transition-color-bg-color {
+    -webkit-transition-property: color,background-color;
+    -moz-transition-property: color,background-color;
+    -ms-transition-property: color,background-color;
+    -o-transition-property: color,background-color;
+    transition-property: color,background-color;
+}
+footer .transition-ease-out-quad {
+    -webkit-transition-timing-function: cubic-bezier(.25,.46,.45,.94);
+    -moz-transition-timing-function: cubic-bezier(.25,.46,.45,.94);
+    -ms-transition-timing-function: cubic-bezier(.25,.46,.45,.94);
+    -o-transition-timing-function: cubic-bezier(.25,.46,.45,.94);
+    transition-timing-function: cubic-bezier(.25,.46,.45,.94);
+}
+footer .transition-duration-fastest {
+    -webkit-transition-duration: 150ms;
+    -moz-transition-duration: 150ms;
+    -ms-transition-duration: 150ms;
+    -o-transition-duration: 150ms;
+    transition-duration: 150ms;
+}
+footer #networks .fill {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+footer .border-slimmer {
+    border-width: 2px;
+}
+footer .border-solid, .border-style-solid {
+    border-style: solid;
+}
+footer .border-radius-full, .radius-full {
+    border-radius: 100%;
+}
+footer .width-full {
+    width: 100%;
+}
+footer .absolute, .position-absolute {
+    position: absolute;
+}
+footer .line-height-perfect {
+    line-height: 1em;
+}
+footer .height-full {
+    height: 100%;
+}
+footer a {
+    text-decoration: none;
+}
+footer .p, a, blockquote, button, h1, h2, h3, h4, h5, h6, li, p {
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    color: inherit;
+    font-size: inherit;
+}
+footer a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+footer .square-broad-from-sm {
+    width: 5rem;
+    height: 5rem;
+}
+
+footer .square-broadest {
+    width: 8rem;
+    height: 8rem;
+}
+footer #site, .position-relative, .relative, html.touch .relative-when-touch {
+    position: relative;
+}
+footer .padding-micro {
+    padding: .5rem;
+}
+footer .margin-left-thinner {
+    margin-left: 2rem;
+}
+
+footer .flex-center {
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+footer .flex-center {
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+footer .flexbox{
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
