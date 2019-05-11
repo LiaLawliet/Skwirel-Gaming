@@ -12,4 +12,8 @@ $(document).ready(function () {
     $('#myMain').css('margin-top', function () {
         return height;
     });
+    
+    $(".menu-icon").on("click", function() {
+        $("nav ul").toggleClass("showing");
+    });
 })
