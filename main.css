@@ -37,6 +37,10 @@ header .menu-btn:hover{
 	text-decoration: none;
 }
 
+nav{
+    padding: 0 !important; 
+}
+
 header nav{
 	display: flex;
 	justify-content: space-around;
